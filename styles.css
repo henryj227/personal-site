@@ -1,27 +1,39 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(11, 26, 40);
+    background-color: rgb(255, 255, 255);
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
-    border: 0;
 }
 header {
-    background-color: black;
     margin: 0;
-    padding: 0;
-    border: 0;
-}
-#header {
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: auto;
     text-align: center;
-    color: white;
-    border-bottom: 10px solid white;
-    border-radius: 10px;
+    color: rgb(0, 0, 0);
 }
-#header_text {
+
+main {
+    height: 2000px;  
+}
+
+#sticky-header {
     margin: 0;
-    padding: 0;
+    position: sticky;
+    top: 0px;
+    text-align: left;
+    height: auto;
+    background-color: darkblue;
+}
+#sticky-header li {
+    display: inline-block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+#navlist li a {
+    color: white;
+}
+#navlist li a:visited {
+    color: white;
 }
