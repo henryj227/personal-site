@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: url(wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
+    background-size: cover;
     font-family: sans-serif;
     margin: 0;
 }
@@ -12,28 +13,58 @@ header {
     height: auto;
     text-align: center;
     color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+}
+h1 {
+    margin: 0;
 }
 
 main {
-    height: 2000px;  
+    height: 1000px;  
 }
 
 #sticky-header {
     margin: 0;
+    padding: 0;
     position: sticky;
-    top: 0px;
+    display: flex;
+    top: 0;
     text-align: left;
     height: auto;
-    background-color: darkblue;
+    background-image: url(luke-chesser-pJadQetzTkI-unsplash.jpg);
+    background-size: cover;
 }
+
 #sticky-header li {
+    margin: -16px -4px;
     display: inline-block;
     padding: 20px 5px;
     font-size: 20px;
 }
-#navlist li a {
+.navlink {
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+#navlist li:hover {
+    background-color: white;
+    text-decoration: none;
+}
+#navlist li:hover .navlink {
+    color: darkblue;
+    text-decoration: none;
+}
+.navlink:visited {
     color: white;
 }
-#navlist li a:visited {
-    color: white;
+#column {
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 20px;
+    height: auto;
+    background-color: hsl(278, 96%, 9%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
 }
